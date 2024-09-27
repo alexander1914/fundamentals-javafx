@@ -1,4 +1,4 @@
-package com.example.propertiesbindings;
+package com.example.propertiesbindings.model;
 
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;

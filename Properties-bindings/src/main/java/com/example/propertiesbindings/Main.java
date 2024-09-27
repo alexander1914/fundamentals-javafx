@@ -1,5 +1,7 @@
 package com.example.propertiesbindings;
 
+import com.example.propertiesbindings.constant.Constant;
+import com.example.propertiesbindings.model.Employeee;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyIntegerProperty;
 import javafx.beans.property.ReadOnlyIntegerWrapper;
@@ -38,9 +40,13 @@ public class Main extends Application {
         numWrapper.set(1000);
         System.out.println("NumWrapper: " + numWrapper.get());
 
-        Constant constant = new Constant(100);
+        Constant constant = new Constant(100, "Writing anything here...");
         constant.changeConstant();
         System.out.println(constant.getReadOnlyNumber().get());
+        System.out.println(constant.getReadOnlyString().get());
+        constant.changeStringWrapper();
+        System.out.println(constant.getReadOnlyString().get());
+
 
         Scene scene = new Scene(root, 550, 500);
         stage.setScene(scene);

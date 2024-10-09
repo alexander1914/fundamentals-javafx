@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
         //TODO: Layout definitions to layout here
         VBox root = new VBox();
         root.setAlignment(Pos.CENTER);

@@ -7,9 +7,10 @@ import javafx.scene.control.Button;
 import javafx.scene.effect.DropShadow;
 import javafx.stage.Stage;
 
-public class Region extends Application {
+public class RegionExample extends Application {
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
+        //TODO Group settings definition to layout
         Group group = new Group();
 
         //TODO: Create new components here

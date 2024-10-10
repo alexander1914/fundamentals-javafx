@@ -20,7 +20,7 @@ public class Main extends Application {
 
         //TODO: Create new Components here
         Label label = new Label("Learning more about layout...");
-        Button button = new Button("Click the button:");
+        Button button = new Button("Click the button me now:");
         button.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> label.setText("PALMEIRAS TEM MUNDIAL SIM..."));
 
         //TODO: Layout definitions to components here

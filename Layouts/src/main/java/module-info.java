@@ -9,5 +9,7 @@ module com.example.layouts {
     exports com.example.hbox;
     exports com.example.vbox;
     exports com.example.flowpane;
+    exports com.example.borderpane;
+    exports com.example.stackpane;
     opens com.example.group to javafx.fxml;
 }

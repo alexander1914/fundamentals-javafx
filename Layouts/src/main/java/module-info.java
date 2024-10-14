@@ -11,5 +11,7 @@ module com.example.layouts {
     exports com.example.flowpane;
     exports com.example.borderpane;
     exports com.example.stackpane;
+    exports com.example.anchorpane;
+    exports com.example.textflow;
     opens com.example.group to javafx.fxml;
 }

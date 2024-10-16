@@ -18,12 +18,12 @@ public class Main extends Application {
         root.setAlignment(Pos.CENTER);
         root.setSpacing(10);
 
-        //TODO: Create new Components here
+        //TODO: Create new Components here:
         Label label = new Label("Learning more about layout...");
         Button button = new Button("Click the button me now:");
         button.addEventHandler(MouseEvent.MOUSE_CLICKED, mouseEvent -> label.setText("PALMEIRAS TEM MUNDIAL SIM..."));
 
-        //TODO: Layout definitions to components here
+        //TODO: Layout definitions to components here:
         button.setPrefWidth(100);
         button.setPadding(new Insets(0,0, 0, 60));
         root.getChildren().addAll(label, button);

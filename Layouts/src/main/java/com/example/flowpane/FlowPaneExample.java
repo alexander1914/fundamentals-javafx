@@ -21,7 +21,7 @@ public class FlowPaneExample extends Application {
         flowPane.setRowValignment(VPos.BOTTOM);
         flowPane.setColumnHalignment(HPos.RIGHT);
 
-        //TODO: Create new components
+        //TODO: Create new components here:
         Button button1 = new Button("Button 1");
         Button button2 = new Button("Button 2");
         Button button3 = new Button("Button 3");

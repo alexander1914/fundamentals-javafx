@@ -12,12 +12,12 @@ import javafx.stage.Stage;
 public class StackPaneExample extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        //TODO StackPane
+        //TODO StackPane settings definition to layout
         StackPane stackPane = new StackPane();
         Rectangle rectangle = new Rectangle(300, 250);
         rectangle.setFill(Color.GREEN);
 
-        //TODO Create new components
+        //TODO Create new components here:
         Label label = new Label("The Rectangle");
         stackPane.setAlignment(label, Pos.TOP_LEFT);
         stackPane.getChildren().addAll(rectangle, label);

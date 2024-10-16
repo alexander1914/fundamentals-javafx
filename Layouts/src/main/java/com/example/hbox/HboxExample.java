@@ -19,7 +19,7 @@ public class HboxExample extends Application {
         hBox.setAlignment(Pos.CENTER);
         hBox.setFillHeight(false);
 
-        //TODO: Create new components here
+        //TODO: Create new components here:
         Label label = new Label("Hello world");
         TextArea textArea = new TextArea();
         HBox.setHgrow(textArea, Priority.ALWAYS);

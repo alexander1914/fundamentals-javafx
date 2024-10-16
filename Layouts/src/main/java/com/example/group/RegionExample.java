@@ -13,7 +13,7 @@ public class RegionExample extends Application {
         //TODO Group settings definition to layout
         Group group = new Group();
 
-        //TODO: Create new components here
+        //TODO: Create new components here:
         Button button1 = new Button("Button 1: ");
         Button button2 = new Button("Button 2: ");
 

@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 public class BorderPaneExample extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        //TODO: BorderPane
+        //TODO: BorderPane settings definition to layout
         BorderPane borderPane = new BorderPane();
         //TODO: Left Nodes
         ListView<String> titles = new ListView<String>();
@@ -26,7 +26,7 @@ public class BorderPaneExample extends Application {
         items.add("Recopa 21");
         titles.setItems(items);
 
-        //TODO Top Nodes create new components
+        //TODO Create new components here:
         Label topLabel = new Label("Titles Abel Ferreira on Palmeiras:");
         topLabel.setPadding(new Insets(10));
         //TODO Button

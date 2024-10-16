@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class TextFlowExample extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        //TODO: TextFlow
+        //TODO: TextFlow settings definition to layout
         TextFlow textFlow = new TextFlow();
 
         //TODO Create new components here:

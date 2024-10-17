@@ -1,7 +1,9 @@
 module com.example.controls {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
-    opens com.example.controls to javafx.fxml;
+    //TODO: Always to create new class settings your package here
     exports com.example.controls.label;
+    exports com.example.controls.button;
 }

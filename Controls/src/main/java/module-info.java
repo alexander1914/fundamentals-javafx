@@ -1,4 +1,5 @@
 module com.example.controls {
+    //TODO: Imports your dependencies here
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;
@@ -6,4 +7,6 @@ module com.example.controls {
     //TODO: Always to create new class settings your package here
     exports com.example.controls.label;
     exports com.example.controls.button;
+    exports com.example.controls.hyperlink;
+    exports com.example.controls.menubutton;
 }

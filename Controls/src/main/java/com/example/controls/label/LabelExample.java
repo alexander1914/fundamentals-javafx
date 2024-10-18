@@ -30,7 +30,7 @@ public class LabelExample extends Application {
         vBox.getChildren().addAll(label);
 
         Scene scene = new Scene(vBox, 500, 450);
-        stage.setTitle("Controls: Label");
+        stage.setTitle("Controls: Label Example");
         stage.setScene(scene);
         stage.show();
     }

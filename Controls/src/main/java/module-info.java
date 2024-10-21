@@ -9,4 +9,5 @@ module com.example.controls {
     exports com.example.controls.button;
     exports com.example.controls.hyperlink;
     exports com.example.controls.menubutton;
+    exports com.example.controls.togglebutton;
 }

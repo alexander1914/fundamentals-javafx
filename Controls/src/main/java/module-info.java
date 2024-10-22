@@ -10,4 +10,6 @@ module com.example.controls {
     exports com.example.controls.hyperlink;
     exports com.example.controls.menubutton;
     exports com.example.controls.togglebutton;
+    exports com.example.controls.radiobutton;
+    exports com.example.controls.checkbox;
 }

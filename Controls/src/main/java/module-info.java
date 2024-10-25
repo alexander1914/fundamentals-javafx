@@ -12,4 +12,5 @@ module com.example.controls {
     exports com.example.controls.togglebutton;
     exports com.example.controls.radiobutton;
     exports com.example.controls.checkbox;
+    exports com.example.controls.choicebox;
 }

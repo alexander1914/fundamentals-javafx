@@ -13,4 +13,6 @@ module com.example.controls {
     exports com.example.controls.radiobutton;
     exports com.example.controls.checkbox;
     exports com.example.controls.choicebox;
+
+    exports com.example.controls.colorpicker;
 }

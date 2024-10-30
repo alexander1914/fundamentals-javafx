@@ -15,4 +15,6 @@ module com.example.controls {
     exports com.example.controls.choicebox;
     exports com.example.controls.combobox;
     exports com.example.controls.colorpicker;
+    exports com.example.controls.datepicker;
+    exports com.example.controls.slider;
 }

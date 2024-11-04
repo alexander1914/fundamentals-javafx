@@ -17,4 +17,6 @@ module com.example.controls {
     exports com.example.controls.colorpicker;
     exports com.example.controls.datepicker;
     exports com.example.controls.slider;
+    exports com.example.controls.menu;
+    exports com.example.controls.tabpane;
 }

@@ -46,7 +46,7 @@ public class ComboBoxExample extends Application {
         vBox.requestFocus();
 
         stage.setScene(scene);
-        stage.setTitle("Controls: ComboBox Example ");
+        stage.setTitle("Controls: ComboBox Example");
         stage.show();
     }
 

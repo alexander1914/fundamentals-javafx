@@ -33,7 +33,7 @@ public class RadioButtonExample extends Application {
 
         Scene scene = new Scene(vBox, 500, 450);
         stage.setScene(scene);
-        stage.setTitle("Controls: RadioButton");
+        stage.setTitle("Controls: RadioButton Example");
         stage.show();
     }
 

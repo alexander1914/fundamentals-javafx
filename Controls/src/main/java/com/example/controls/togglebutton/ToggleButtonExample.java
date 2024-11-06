@@ -37,7 +37,7 @@ public class ToggleButtonExample extends Application {
         });
 
         Scene scene = new Scene(vBox, 500, 450);
-        stage.setTitle("Controls: ToggleButton");
+        stage.setTitle("Controls: ToggleButton Example");
         stage.setScene(scene);
         stage.show();
     }

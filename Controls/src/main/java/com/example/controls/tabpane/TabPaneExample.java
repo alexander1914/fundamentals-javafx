@@ -32,7 +32,7 @@ public class TabPaneExample extends Application {
         borderPane.setCenter(pane);
 
         Scene scene = new Scene(borderPane, 500, 450);
-        stage.setTitle("Controls: Tab Pane");
+        stage.setTitle("Controls: TabPane Example");
         stage.setScene(scene);
         stage.show();
     }

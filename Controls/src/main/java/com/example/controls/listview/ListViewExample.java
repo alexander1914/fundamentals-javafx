@@ -33,7 +33,7 @@ public class ListViewExample extends Application {
         vBox.getChildren().addAll(listView, label, button);
         Scene scene = new Scene(vBox, 500, 250);
         stage.setScene(scene);
-        stage.setTitle("Controls: List View");
+        stage.setTitle("Controls: List View Example");
         stage.show();
     }
 

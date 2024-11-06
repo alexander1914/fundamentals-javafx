@@ -22,7 +22,7 @@ public class DatePickerExample extends Application {
         vBox.getChildren().addAll(date, datePicker);
         Scene scene = new Scene(vBox, 500, 450);
 
-        stage.setTitle("Controls: DatePicker");
+        stage.setTitle("Controls: DatePicker Example");
         stage.setScene(scene);
         stage.show();
     }

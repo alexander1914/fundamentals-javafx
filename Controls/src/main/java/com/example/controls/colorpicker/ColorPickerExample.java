@@ -25,7 +25,7 @@ public class ColorPickerExample extends Application {
         vBox.getChildren().addAll(colorPicker);
 
         Scene scene = new Scene(vBox, 500, 450);
-        stage.setTitle("Controls: Color Picker");
+        stage.setTitle("Controls: Color Picker Example");
         stage.setScene(scene);
         stage.show();
     }

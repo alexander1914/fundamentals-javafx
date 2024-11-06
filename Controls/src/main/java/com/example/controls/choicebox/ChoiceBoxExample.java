@@ -30,7 +30,7 @@ public class ChoiceBoxExample extends Application {
         vbox.getChildren().addAll(label, choiceBox);
 
         Scene scene = new Scene(vbox, 500, 450);
-        stage.setTitle("Controls: Choice Box");
+        stage.setTitle("Controls: Choice Box Example");
         stage.setScene(scene);
         stage.show();
 

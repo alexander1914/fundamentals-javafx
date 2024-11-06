@@ -33,7 +33,7 @@ public class SliderControlExample extends Application {
 
         vBox.getChildren().addAll(red, green, blue);
         Scene scene = new Scene(vBox, 500, 450);
-        stage.setTitle("Controls: Slider Control");
+        stage.setTitle("Controls: Slider Control Example");
         stage.setScene(scene);
         stage.show();
     }

@@ -34,7 +34,7 @@ public class CheckBoxExample extends Application {
         Scene scene = new Scene(vBox, 500, 450);
         vBox.getChildren().addAll(answer, question, checkBox);
 
-        stage.setTitle("Controls: CheckBox");
+        stage.setTitle("Controls: CheckBox Example");
         stage.setScene(scene);
         stage.show();
     }

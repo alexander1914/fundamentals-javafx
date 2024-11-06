@@ -31,7 +31,7 @@ public class ButtonExample extends Application {
         });
         Scene scene = new Scene(vBox, 500, 450);
 
-        stage.setTitle("Controls: Button");
+        stage.setTitle("Controls: Button Example");
         stage.setScene(scene);
         stage.show();
     }

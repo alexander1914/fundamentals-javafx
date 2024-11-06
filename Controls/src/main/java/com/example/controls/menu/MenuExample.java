@@ -33,7 +33,7 @@ public class MenuExample extends Application {
         borderPane.setTop(menuBar);
 
         Scene scene = new Scene(borderPane, 500, 450);
-        stage.setTitle("Controls: Menu");
+        stage.setTitle("Controls: Menu Example");
         stage.setScene(scene);
         stage.show();
     }

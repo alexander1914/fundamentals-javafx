@@ -1,5 +1,7 @@
 module com.example.controls {
-    //TODO: Imports your dependencies here
+    //TODO: Module is responsible to management the classes Java FX
+
+    //TODO: Imports your dependencies to work with Java FX here
     requires javafx.controls;
     requires javafx.fxml;
     requires java.desktop;

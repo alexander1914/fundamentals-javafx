@@ -13,15 +13,17 @@ public class TableViewExample extends Application {
 
         //TODO: Create new components here
         TableView<User> userTableView = new TableView<>(UserUtility.getUsersList());
+        userTableView.setEditable(true);
         userTableView.getColumns().addAll(
                 UserUtility.getFirstNameColumn(),
                 UserUtility.getLastNameColumn(),
-                UserUtility.getBirthDateColumn()
+                UserUtility.getBirthDateColumn(),
+                UserUtility.getDeleteUserColumn()
         );
         vBox.getChildren().addAll(userTableView);
 
         Scene scene = new Scene(vBox, 500, 400);
-        stage.setTitle("TableView Control Example: ");
+        stage.setTitle("TableView Controls Example: ");
         stage.setScene(scene);
         stage.show();
     }

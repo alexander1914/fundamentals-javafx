@@ -22,12 +22,20 @@ public class User {
         return firstName.get();
     }
 
+    public void setFirstName(String firstName){
+        this.firstName.set(firstName);
+    }
+
     public String getLastName() {
         return lastName.get();
     }
 
     public LocalDate getBirthDate() {
         return birthDate.get();
+    }
+
+    public void setBirthDate(LocalDate birthDate){
+        this.birthDate.set(birthDate);
     }
 
     @Override

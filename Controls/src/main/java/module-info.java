@@ -23,4 +23,5 @@ module com.example.controls {
     exports com.example.controls.tabpane;
     exports com.example.controls.listview;
     exports com.example.controls.tableview;
+    exports com.example.controls.treeview;
 }

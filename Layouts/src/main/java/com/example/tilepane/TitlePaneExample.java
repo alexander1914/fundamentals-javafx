@@ -33,6 +33,7 @@ public class TitlePaneExample extends Application {
                 new Button("FIFA"),
                 new Button("World"),
                 new Button("club"),
+                new Button("2025"),
                 new Button(tileAlignment.toString())
         };
         TilePane pane = new TilePane(5, 5, buttons);

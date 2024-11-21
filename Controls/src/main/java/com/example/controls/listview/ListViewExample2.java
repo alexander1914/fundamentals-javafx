@@ -28,7 +28,7 @@ public class ListViewExample2 extends Application {
 
         Scene scene = new Scene(vBox, 500, 450);
         stage.setScene(scene);
-        stage.setTitle("ListView Control Example: ");
+        stage.setTitle("ListView Control Example 2: ");
         stage.show();
     }
 

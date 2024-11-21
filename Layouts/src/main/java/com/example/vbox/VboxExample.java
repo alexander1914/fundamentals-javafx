@@ -26,7 +26,7 @@ public class VboxExample extends Application {
         Scene scene = new Scene(vBox, 500, 450);
 
         stage.setScene(scene);
-        stage.setTitle("VBOx Layout Example");
+        stage.setTitle("VBOx Layout Example: ");
         stage.show();
     }
 

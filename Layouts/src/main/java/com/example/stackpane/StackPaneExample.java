@@ -22,7 +22,7 @@ public class StackPaneExample extends Application {
         stackPane.setAlignment(label, Pos.TOP_LEFT);
         stackPane.getChildren().addAll(rectangle, label);
         Scene scene = new Scene(stackPane, 400, 350);
-        stage.setTitle("StackPane Layout Example");
+        stage.setTitle("StackPane Layout Example: ");
         stage.setScene(scene);
         stage.show();
     }

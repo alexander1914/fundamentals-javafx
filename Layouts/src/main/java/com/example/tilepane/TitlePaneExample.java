@@ -20,7 +20,7 @@ public class TitlePaneExample extends Application {
 
         //TODO: Settings
         Scene scene = new Scene(hBox, 300, 250);
-        stage.setTitle("Layouts: TitledPane Example");
+        stage.setTitle("Layouts: TitledPane Example: ");
         stage.setScene(scene);
         stage.show();
     }

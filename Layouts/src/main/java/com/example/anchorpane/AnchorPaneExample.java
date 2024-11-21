@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-public class AnchorPaneExemple extends Application {
+public class AnchorPaneExample extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         //TODO: AnchorPane settings definition to layout

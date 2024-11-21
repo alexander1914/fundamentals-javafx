@@ -28,7 +28,7 @@ public class HboxExample extends Application {
 
         Scene scene = new Scene(hBox, 700, 500);
         stage.setScene(scene);
-        stage.setTitle("Hbox Layout Example");
+        stage.setTitle("Hbox Layout Example: ");
         stage.show();
     }
 

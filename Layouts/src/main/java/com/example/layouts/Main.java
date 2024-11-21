@@ -31,7 +31,7 @@ public class Main extends Application {
         //TODO: Settings
         Scene scene = new Scene(root, 500, 450);
         stage.setScene(scene);
-        stage.setTitle("Learning layouts");
+        stage.setTitle("Learning layouts...");
         stage.show();
 
     }

@@ -58,7 +58,7 @@ public class BorderPaneExample extends Application {
         });
         Scene scene = new Scene(borderPane, 700, 650);
         stage.setScene(scene);
-        stage.setTitle("Border Pane Layout Example");
+        stage.setTitle("Border Pane Layout Example: ");
         stage.show();
     }
 

@@ -33,7 +33,7 @@ public class FlowPaneExample extends Application {
 
         Scene scene = new Scene(flowPane, 500, 450);
         stage.setScene(scene);
-        stage.setTitle("FlowPane Layout here");
+        stage.setTitle("FlowPane Layout Example: ");
         stage.show();
     }
 

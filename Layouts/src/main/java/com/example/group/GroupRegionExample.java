@@ -27,7 +27,7 @@ public class GroupRegionExample extends Application {
         group.getChildren().addAll(button1, button2);
 
         Scene scene = new Scene(group, 350, 300);
-        stage.setTitle("Group Layout Example");
+        stage.setTitle("Group Layout Example: ");
         stage.setScene(scene);
         stage.show();
     }

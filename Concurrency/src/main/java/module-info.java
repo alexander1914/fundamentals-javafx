@@ -1,5 +1,5 @@
 module Concurrency {
-    requires javafx.graphics;
+    requires javafx.controls;
 
     exports com.example.concurrency.indroduction;
 }

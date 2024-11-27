@@ -61,6 +61,12 @@ public class WorkerUI extends GridPane {
                 .otherwise(worker.progressProperty().multiply(100).asString("%2f%%")));
         progressBar.progressProperty().bind(worker.progressProperty());
         value.textProperty().bind(worker.valueProperty().asString());
-        exception.textProperty().bind(worker.exceptionProperty().asString());
+        worker.exceptionProperty().addListener((obs, oldVal, newVal) -> {
+            if(newVal != null){
+                exception.setText(newVal.getMessage());
+            }else {
+                exception.setText("");
+            }
+        });
     }
 }

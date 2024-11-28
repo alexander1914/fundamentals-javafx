@@ -34,15 +34,15 @@ public class WorkerUI extends GridPane {
         exception.setPrefRowCount(5);
         this.setHgap(5);
         this.setVgap(5);
-        addRow(0, new Label("Title:", title));
-        addRow(1, new Label("Message:", message));
-        addRow(2, new Label("Running:", running));
-        addRow(3, new Label("State:", state));
-        addRow(4, new Label("TotalWork:", totalWork));
-        addRow(5, new Label("WorkDone:", workDone));
-        addRow(6, new Label("Progress:", progress), new HBox(2, progressBar, progress));
-        addRow(7, new Label("Value:"), value);
-        addRow(7, new Label("Exception:"), exception);
+        addRow(0, new Label("Title: "), title);
+        addRow(1, new Label("Message: "), message);
+        addRow(2, new Label("Running: "), running);
+        addRow(3, new Label("State: "), state);
+        addRow(4, new Label("TotalWork: "), totalWork);
+        addRow(5, new Label("WorkDone: "), workDone);
+        addRow(6, new Label("Progress: "), new HBox(2, progressBar, progress));
+        addRow(7, new Label("Value: "), value);
+        addRow(7, new Label("Exception: "), exception);
     }
 
     private void bindToWorker(Worker<ObservableList<Integer>> worker){

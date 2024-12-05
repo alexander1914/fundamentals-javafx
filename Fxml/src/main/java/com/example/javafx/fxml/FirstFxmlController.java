@@ -4,6 +4,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
 public class FirstFxmlController {
+
+    //TODO: These are annotations to use the components your project
     @FXML
     private Label text;
 

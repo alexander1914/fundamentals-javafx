@@ -10,6 +10,7 @@ import java.io.IOException;
 public class FirstFxmlExample extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        //TODO: FXMLLoader is to load your fxml page.
         FXMLLoader fxmlLoader = new FXMLLoader(FirstFxmlExample.class.getResource("first-page.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 240);
         stage.setTitle("Example FXML: ");

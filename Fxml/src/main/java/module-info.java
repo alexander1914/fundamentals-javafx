@@ -5,4 +5,6 @@ module com.example.javafx.fxml {
     //TODO: The settings all class to use your project
     opens com.example.javafx.fxml to javafx.fxml;
     exports com.example.javafx.fxml;
+    exports com.example.javafx.fxml.controllers;
+    opens com.example.javafx.fxml.controllers to javafx.fxml;
 }

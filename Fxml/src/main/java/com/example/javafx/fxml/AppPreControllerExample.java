@@ -8,23 +8,20 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class FirstFxmlExample extends Application {
+public class AppPreControllerExample extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         //TODO: FXMLLoader is to load your fxml page.
-        FXMLLoader fxmlLoader = new FXMLLoader(FirstFxmlExample.class.getResource("first-page.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(FirstFxmlExample.class
+                .getResource("pre-constructed-controller.fxml"));
 
         //TODO: Controller Pre_Constructed example
-        ///PreConstructedController preConstructedController = new PreConstructedController("Hi, Java Fx");
-        ///fxmlLoader.setController(preConstructedController);
+        PreConstructedController preConstructedController = new PreConstructedController("Hi, Java Fx");
+        fxmlLoader.setController(preConstructedController);
 
         Scene scene = new Scene(fxmlLoader.load(), 600, 240);
         stage.setTitle("Example FXML: ");
         stage.setScene(scene);
         stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch();
     }
 }

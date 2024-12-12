@@ -14,4 +14,5 @@ module com.example.layouts {
     exports com.example.anchorpane;
     exports com.example.textflow;
     exports com.example.tilepane;
+    exports com.example.gridpane;
 }

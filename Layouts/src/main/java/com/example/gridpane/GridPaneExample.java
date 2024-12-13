@@ -1,6 +1,7 @@
 package com.example.gridpane;
 
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,13 +17,14 @@ public class GridPaneExample extends Application {
          * Settings for the layout
          */
         GridPane gridPane = new GridPane();
-        ///gridPane.setGridLinesVisible(true);
+        gridPane.setAlignment(Pos.CENTER);
+        gridPane.setGridLinesVisible(true);
         gridPane.setHgap(10);
         gridPane.setVgap(10);
 
         /**
          * Create new components your application
-         * This a example a form with JX
+         * This an example a form with JX
          */
         Label label = new Label("First Name: ");
         TextField textField = new TextField();
@@ -51,6 +53,7 @@ public class GridPaneExample extends Application {
                 +"-fx-border-insets: 5;"+"-fx-border-radius: 5;"+"-fx-border-color:blue;");
 
         Scene scene = new Scene(gridPane);
+        gridPane.requestFocus();
         stage.setTitle("Grid Pane Layout Example: ");
         stage.setScene(scene);
         stage.show();
